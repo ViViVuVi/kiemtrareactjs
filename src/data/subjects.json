@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "React JS", "image": "/src/assets/react.png" },
+  { "id": 2, "name": "PHP", "image": "/src/assets/php.png" },
+  { "id": 3, "name": "Python", "image": "/src/assets/python.png" },
+  { "id": 4, "name": ".NET Core", "image": "/src/assets/netcore.png" },
+  { "id": 5, "name": "Spring Boot", "image": "/src/assets/springboot.png" }
+]
