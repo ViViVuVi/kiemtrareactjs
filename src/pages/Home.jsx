@@ -3,6 +3,9 @@ import { Container, Image } from "react-bootstrap";
 import ObjectList from "../components/ObjectList";
 import SubjectList from "../components/SubjectList";
 
+// ✅ Import ảnh như import module
+import banner from "../assets/banner.jpg";
+
 const Home = () => {
   const [objects, setObjects] = useState([]);
   const [subjects, setSubjects] = useState([]);
@@ -21,7 +24,7 @@ const Home = () => {
     <>
       <Container className="text-center mt-4">
         <Image
-          src="/src/assets/banner.jpg"
+          src={banner} // ✅ Dùng biến import
           alt="FPT Aptech Banner"
           fluid
           rounded
